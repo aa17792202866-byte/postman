@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/user_sign/
+method: POST
+body:
+  type: urlencoded
+  content:
+    eid: "3"
+    phone: "17792202866"
+order: 3757388901017821

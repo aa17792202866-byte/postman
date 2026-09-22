@@ -1,0 +1,13 @@
+$kind: http-request
+name: start_time年月日之间用/连接-10024
+url: http://127.0.0.1:8000/api/add_event/
+method: POST
+body:
+  type: urlencoded
+  content:
+    eid: "324322"
+    name: 苹果发布会的
+    limit: "1000"
+    address: 苹果总部
+    start_time: 2026/09/09 20:00:00
+order: 4466180258059858

@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/get_event_list?eid=abc
+method: GET
+queryParams:
+  - key: eid
+    value: abc
+    disabled: false
+    description: ""
+order: 4110948772006457

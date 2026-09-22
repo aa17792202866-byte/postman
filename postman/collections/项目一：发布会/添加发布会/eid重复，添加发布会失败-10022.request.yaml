@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/add_event/
+method: POST
+body:
+  type: urlencoded
+  content:
+    eid: "9999"
+    name: 苹果发布会ers
+    limit: "1000"
+    address: 苹果总部
+    start_time: 2026-09-09 20:00:00
+examples: .resources/eid重复，添加发布会失败-10022.resources/examples
+order: 3508844628902195

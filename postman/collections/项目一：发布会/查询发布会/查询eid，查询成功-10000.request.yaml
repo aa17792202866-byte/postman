@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/get_event_list?name=羞羞
+method: GET
+queryParams:
+  - key: eid
+    value: "1"
+    disabled: true
+    description: ""
+  - key: name
+    value: 羞羞
+    disabled: false
+    description: ""
+order: 1790057906108

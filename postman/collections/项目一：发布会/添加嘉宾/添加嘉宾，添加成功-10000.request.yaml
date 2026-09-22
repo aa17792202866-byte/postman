@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/add_guest/
+method: POST
+body:
+  type: urlencoded
+  content:
+    eid: "3"
+    realname: 韩瑞轩
+    phone: "17792202866"
+    email: 17792202866@163.com
+order: 1790062098590

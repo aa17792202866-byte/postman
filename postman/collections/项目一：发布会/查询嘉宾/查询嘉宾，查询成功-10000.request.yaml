@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/get_guest_list/?eid=32432&phone=17792202866
+method: GET
+queryParams:
+  - key: eid
+    value: "32432"
+    disabled: false
+    description: ""
+  - key: phone
+    value: "17792202866"
+    disabled: false
+    description: ""
+order: 1790062308325
